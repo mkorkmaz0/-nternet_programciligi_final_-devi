@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #35424a;
+    color: #ffffff;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Temel Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Sidebar Stili */
+  .w3-sidebar {
+    background: #2c3e50 !important;
+    height: 100vh;
+    position: fixed;
+    width: 11% !important;
+  }
+  
+  .w3-bar-item {
+    color: #ecf0f1 !important;
+    padding: 15px !important;
+    transition: 0.3s;
+  }
+  
+  .w3-bar-item:hover {
+    background: #34495e !important;
+    transform: translateX(5px);
+  }
+  
+  /* Header Stili */
+  .w3-container.w3-teal {
+    background: #3498db !important;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* İçerik Alanı */
+  div[style="margin-left:11%"] {
+    padding: 20px;
+    min-height: 100vh;
+    background: #f5f6fa;
+  }
+  
+  /* Footer */
+  footer {
+    background: #2c3e50 !important;
+    color: white !important;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  /* Responsive Tasarım */
+  @media (max-width: 768px) {
+    .w3-sidebar {
+      width: 100% !important;
+      height: auto;
+      position: relative;
+    }
+    
+    div[style="margin-left:11%"] {
+      margin-left: 0 !important;
+    }
+    
+    .w3-bar-item {
+      text-align: center;
+    }
+  }
+  
+  /* Animasyonlar */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .w3-container.w3-teal h1 {
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  
